@@ -24,7 +24,8 @@ int mul(int a, int b)
 
 int divd(int a, int b)
 {
-    return a/b ;
+    if(b!=0)
+        return a/b ;
 }
 
 point add_point(point a, point b){
