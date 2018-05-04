@@ -28,11 +28,13 @@ int divd(int a, int b)
         return a/b ;
 }
 
+/*
 int divdf(float a, float b)
 {
     if(b!=0)
         return a/b;	
 }
+*/
 
 point add_point(point a, point b){
     point val;
