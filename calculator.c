@@ -28,7 +28,7 @@ int divd(int a, int b)
         return a/b ;
 }
 
-float divdf(float a, float b)
+float dividf(float a, float b)
 {
     if(b!=0)
         return a/b;	
